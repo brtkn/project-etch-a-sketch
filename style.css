@@ -1,0 +1,28 @@
+body{
+    background-color: #273043;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    height: 500px;
+    width: 500px;
+    grid-template-columns: repeat(var(--numCols), 1fr);
+    grid-template-rows: repeat(var(--numRows), 1fr);
+    border: black solid 5px;
+}
+
+.cell{
+    display: block;
+    padding: 2px;
+    border: 1px solid black;
+    background-color: rgb(245, 124, 55);
+    
+}
+
+button{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
